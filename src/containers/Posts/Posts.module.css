@@ -1,0 +1,11 @@
+.PostsWrapper {
+  padding: 5rem 8rem;
+  background-color: #fff;
+}
+.Posts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-wrap: wrap;
+}

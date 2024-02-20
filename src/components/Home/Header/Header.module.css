@@ -1,0 +1,136 @@
+.Header {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  min-height: calc(100vh - 6.1rem);
+}
+.HeaderContent {
+  flex-basis: 50%;
+  padding: 5rem 8rem;
+}
+.HeaderWelcome {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #030022;
+}
+.HeaderWelcome span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7b83f3;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  margin-left: 1rem;
+}
+.HeaderTitle {
+  font-size: 4.5rem;
+  color: #030022;
+}
+.HeaderTitle span {
+  display: block;
+}
+.HeaderTitle span .purple {
+  background-color: #7b83f3;
+  color: #fff;
+  display: inline-block;
+  padding: 0 1rem;
+}
+.HeaderTitle span svg {
+  font-size: 3rem;
+}
+.HeaderTagline {
+  font-size: 1.6rem;
+  font-weight: 500;
+  width: 40rem;
+  margin: 2rem 0 4rem;
+}
+.Btn {
+  background-color: #030022;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 25rem;
+  padding: 1.5rem;
+  border-radius: 10rem;
+  position: relative;
+  z-index: 2;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.Btn::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: "";
+  width: 25rem;
+  height: 5.3rem;
+  transform: scale(0.8);
+  background-color: #03002292;
+  border-radius: 10rem;
+  transition: all 0.3s;
+}
+.Btn:hover::before {
+  transform: scale(1.5);
+  opacity: 0;
+}
+.HeaderImages {
+  flex-basis: 50%;
+  position: relative;
+}
+.HeaderImagesUsers {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.HeaderImagesUsers img {
+  position: absolute;
+  transform: translate(50%, -50%);
+  width: 40%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.HeaderImagesUsers img:hover {
+  outline: 1.5rem solid #7b83f3;
+  border-radius: 0.5rem;
+  outline-offset: 1.5rem;
+  transform: translate(50%, -50%) scale(1.02);
+  transform-origin: center;
+  z-index: 2;
+}
+.HeaderImagesUsers img:nth-child(1) {
+  top: 40%;
+  right: 55%;
+}
+.HeaderImagesUsers img:nth-child(2) {
+  top: 55%;
+  right: 35%;
+}
+.HeaderImagesUsers img:nth-child(3) {
+  top: 70%;
+  right: 70%;
+}
+.HeaderImagesIcons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.HeaderImagesIcons img {
+  position: absolute;
+  width: 5rem;
+}
+.HeaderImagesIcons img:nth-child(1) {
+  top: 30%;
+  left: 10%;
+}
+.HeaderImagesIcons img:nth-child(2) {
+  top: 15%;
+  right: 10%;
+}
+.HeaderImagesIcons img:nth-child(3) {
+  bottom: 15%;
+  right: 35%;
+}

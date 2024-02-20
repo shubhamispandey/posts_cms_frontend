@@ -1,0 +1,127 @@
+.Navbar {
+  display: flex;
+  background: #fff;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #ebebeb;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+.NavbarLogo {
+  width: 4.5rem;
+}
+.NavbarLogo img {
+  width: 100%;
+}
+
+.NavbarItems {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 4rem;
+  font-size: 1.6rem;
+}
+.NavbarLink {
+  text-decoration: none;
+  color: #252525;
+  font-weight: 400;
+  transition: all 0.1s ease;
+}
+.NavbarLink:hover {
+  color: #4b4b4b;
+}
+.NavbarBtn {
+  margin-left: auto;
+  border: 0;
+  outline: 0;
+  background: #007be0;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.NavbarBtn:hover {
+  background: #ffffff;
+  color: #007be0;
+  border: 1px solid #007be0;
+  transform: scale(1.02);
+}
+.NavbarBtn svg {
+  font-size: 2rem;
+  transition: all 0.5s ease;
+}
+.NavbarBtn:hover svg {
+  transform: rotate(360deg);
+}
+.NavbarDropdown {
+  margin-left: 3rem;
+  position: relative;
+}
+.NavbarDropdownImage {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.NavbarDropdownImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.NavbarDropdownBody {
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  list-style: none;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 6rem;
+  right: 0rem;
+  width: 16rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 0.3rem 0;
+  display: none;
+}
+.NavbarDropdownBridge {
+  width: 5rem;
+  height: 2rem;
+  background-color: transparent;
+  position: absolute;
+  top: 4rem;
+  right: 0rem;
+  content: "";
+}
+.NavbarDropdownBody li {
+  transition: all 0.2s ease;
+  border-top: 1px solid #d1d1d1;
+}
+.NavbarDropdownBody li:hover {
+  background-color: #cdcdcd;
+}
+.NavbarDropdownBody li:last-child {
+  border-bottom: 1px solid #d1d1d1;
+}
+.NavbarDropdownBody li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-decoration: none;
+  color: #2e2e2e;
+  gap: 1rem;
+  font-weight: 500;
+  padding: 0.7rem 1rem;
+}
+
+.NavbarDropdown:hover > .NavbarDropdownBody {
+  display: inline-block;
+}

@@ -1,0 +1,13 @@
+.css-ovja5t-MuiButtonBase-root-MuiToggleButton-root {
+  font-size: 1.4rem !important;
+  font-weight: 500 !important;
+  padding: 0.8rem 2.5rem !important;
+  background-color: #e8e8e8 !important;
+  color: #242424 !important;
+  text-transform: capitalize !important;
+}
+
+.css-ovja5t-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+  background-color: #7b83f3 !important;
+  color: #fff !important;
+}

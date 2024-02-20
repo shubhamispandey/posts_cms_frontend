@@ -1,0 +1,84 @@
+.UserInfoWrapper {
+  background-color: #7b83f3;
+  width: 100%;
+  padding: 5rem 8rem;
+}
+.UserInfoWrapper h2 {
+  font-size: 3.4rem;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.UserInfo {
+  display: flex;
+  gap: 3rem;
+}
+.UserInfo > * {
+  padding: 3rem;
+  background: #fff;
+  border-radius: 1rem;
+}
+.UserInfoPersonal {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.UserInfoPersonalImage {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.UserInfoPersonalImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.UserInfoPersonalDetails p {
+  font-size: 1.6rem;
+  color: #000128;
+}
+.UserInfoPersonalDetails p:nth-child(2) {
+  font-size: 1.4rem;
+  color: #4f4f4f;
+  margin-top: 0.5rem;
+}
+.UserInfoPersonalDetails p:nth-child(3) {
+  font-size: 1.5rem;
+  color: #7b83f3;
+}
+.UserInfoWork {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+}
+.UserInfoWork > div {
+  flex-basis: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.UserInfoWork > div span {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7b83f3;
+  color: #fff;
+  border-radius: 50%;
+}
+.UserInfoWork > div span svg {
+  font-size: 2rem;
+}
+.UserInfoWork > div div {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: #484848;
+}
+.UserInfoWork > div div p:first-child {
+  font-weight: 600;
+  color: #000128;
+}

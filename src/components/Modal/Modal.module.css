@@ -1,0 +1,16 @@
+.Title {
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+  color: #000016;
+}
+.Input input,
+.Input label {
+  font-size: 1.6rem !important;
+  font-weight: 600 !important;
+}
+.Input input {
+  font-weight: 500 !important;
+}
+.Btn {
+  font-size: 1.4rem !important;
+}

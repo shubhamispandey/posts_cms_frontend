@@ -1,0 +1,19 @@
+.PostsWrapper {
+  background-color: #ffffff;
+  width: 100%;
+  padding: 5rem 8rem;
+}
+.PostsWrapper .header {
+  font-size: 3.4rem;
+  letter-spacing: 1px;
+  color: #7b83f3;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.Posts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
+}

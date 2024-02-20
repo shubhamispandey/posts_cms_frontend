@@ -1,0 +1,30 @@
+.Container {
+  margin-bottom: 2rem;
+}
+
+.Search {
+  position: relative;
+}
+.SearchIcon {
+  position: absolute;
+  top: 50%;
+  left: 1.5rem;
+  transform: translateY(-45%);
+  font-size: 2.5rem !important;
+  color: #858585;
+}
+.SearchInput {
+  width: 100%;
+  height: 2rem;
+  border-radius: 4rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 2.4rem 6rem;
+  color: #0f0023;
+  box-shadow: 0 0 3rem 1rem #cccccc78;
+  border: 1px solid #e1e1e1;
+  outline: none;
+}
+.Filter {
+  margin-top: 4rem;
+}
